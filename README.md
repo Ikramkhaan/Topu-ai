@@ -1,4 +1,4 @@
-if you deployed now update.. only yourself use your prefix then update.. eg. my prefix is ! so i will !update <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
  <h1 align="center"> 𝚻𝚯𝚸𝐔 𝚳𝐃 </h1>
 
@@ -9,13 +9,10 @@ if you deployed now update.. only yourself use your prefix then update.. eg. my 
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
  
-<p align="center"> TOPU MD, A Simple WhatsApp user BOT, Created by topu Tech.
+<p align="center"> Introducing TOPU Md, A Simple WhatsApp user BOT, Created by topu Tech.
 </p>
- 
-<p align="center">TOPU MD,is currently under development stay updated
 
-
-  <a href="https://ibb.co/N6NMDtn"><img src="https://telegra.ph/file/04e09c20e70de180ee319.jpg" alt="01" border="0" /></a>                     
+  <a href="https://ibb.co/N6NMDtn"><img src="https://telegra.ph/file/13f1bb945857eb9b1eca6.jpg" alt="01" border="0" /></a>                     
 <a><img src='https://i.imgur.com/LyHic3i.gif'/>&</a>
  ## 🚀 `Bot Features`
 | Feature                          | Description                                             | Available    | Version    |
@@ -45,7 +42,7 @@ if you deployed now update.. only yourself use your prefix then update.. eg. my 
 
 2. Get Session ID (By pairing code)
    > 
-     <a href='https://topu-md-pairing-code-c02c2ad0f897.herokuapp.com/pair' target="_blank"><img alt='SESSION ID' src='https://img.shields.io/badge/Session_id-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
+     <a href='https://topu-scan-pair.onrender.com/pair' target="_blank"><img alt='SESSION ID' src='https://img.shields.io/badge/Session_id-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
 
 
 3. Deploy on heroku
@@ -121,6 +118,7 @@ TOPU Md is safe for your WhatsApp and heroku
 
 [Venocyber]
 
+[gifted tech]
 
 [king ibrahim]
 

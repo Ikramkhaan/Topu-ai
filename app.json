@@ -1,5 +1,5 @@
 {
-  "name": "𝚻𝚯𝚸𝐔-𝚳𝐃",
+  "name": "TOPU-Md",
   "description": "Simple WhatsApp Bot",
   "logo": "https://telegra.ph/file/2004949d3426fc22fd620.jpg",
   "keywords": ["Topu-md", "TOPU", "TOPU MD","TOPU MD wabot","Topu","Toputech"],
@@ -9,7 +9,7 @@
   "env": {
     "OWNER_NAME": {
       "description": "Name for Bot Owner",
-      "value": "𝖙𝖔𝖕𝖚 𝖙𝖊𝖈𝖍",
+      "value": "topu tech",
       "required": true
     },
 
@@ -62,7 +62,7 @@
     "WAPRESENCE": {
       "description": "Fill the value: 'unavailable'(for nothing) | 'available'(for alwaysonline) | 'composing'(for typing) | 'recording' | 'paused' ",
       "required": false,
-      "value": "online"
+      "value": "available"
     },
     "AUTO_READ_STATUS": {
       "description": "Fill the value true if you want bot view your Statuses.",
@@ -76,7 +76,7 @@
     },
      "OPEN_API_KEY": {
       "description": "put your OPEN_API_KEY here to access chatgpt.",
-      "value": "sk-proj-nzj66xdSVURMqSV8EBvpT3BlbkFJrw4a1XClnXyLUzoVftJV"
+      "value": "sk-proj-1OXigIjDK8D0kcA79HdeT3BlbkFJEDHPpT2duPSj9OSpIEd0"
     }, 
     "READ_MESSAGE": {
       "description": "Fill the value true if you want bot to read all messages.",
@@ -102,42 +102,22 @@
     },
     "MODE": {
       "description": "Worktype of your bot. Use public or private, if it is private then only bot number can use it. If public then everyone can use it.",
-      "value": "private"
+      "value": "public"
     },
     "PACK_NAME": {
       "description": "Put Sticker Pack_Name.",
-      "value": "𝖙𝖔𝖕𝖚 𝖙𝖊𝖈𝖍",
+      "value": "Topu",
       "required": false
     },
     "PACK_AUTHER": {
       "description": "Put Sticker Author_Name.",
-      "value": "тσρυ ∂мн",
+      "value": "Topu dmh",
       "required": false
     }
   },
-    "buildpacks": [
-    {
-      "url": "heroku/nodejs"
-    },
-
-    {
-      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
-    },
-    {
-      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
-    }
-  ],
-
-  "formation": {
-                "worker": {
-                        "quantity": 1,
-                        "size": "basic"
-                }
-        },
-
-  "addons":[
-    {
-      "plan":"heroku-postgresql"
-    }
+  "addons": [{ "plan": "heroku-postgresql:essential-1" }],
+  "buildpacks": [
+    { "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" },
+    { "url": "https://github.com/carlosdommor/heroku-buildpack-ffmpeg-latest" }
   ]
-    }
+}
